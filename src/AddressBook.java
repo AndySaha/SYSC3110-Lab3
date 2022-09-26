@@ -1,9 +1,9 @@
 import java.util.*;
-"""
-This comment is being written in GitHub
-"""
-public class AddressBook {
 
+public class AddressBook {
+/**
+* This comment is being written in GitHub
+*/
     private List<BuddyInfo> buddies;
 
     public AddressBook() {
@@ -17,6 +17,9 @@ public class AddressBook {
         this.buddies.remove(buddy);
     }
 
+    public void testMethod(){
+        System.out.println("The testMethod method was added successfully");
+    }
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Eric","6134206666","123 Street Ln");
         AddressBook addressBook = new AddressBook();
